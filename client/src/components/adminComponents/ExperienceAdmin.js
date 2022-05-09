@@ -23,7 +23,7 @@ const ExperienceAdmin = () => {
             try {
             
          const res = await axios.get(`/experience`);
-        //  console.log(res.exprerience);
+        //  console.log(res.experience);
         setExperienceData(res.data);
                 
           } catch (err) {

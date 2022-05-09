@@ -1,6 +1,6 @@
 import React from 'react';
 
-import profile from '../../images/ody.JPG';
+import profile from '../../images/sandra.jpg';
 // import Particle from 'react-particles-js';
 import Typewriter from 'typewriter-effect';
 import Particles from "react-tsparticles";
@@ -117,7 +117,7 @@ const Header = () => {
                  <h1>
                      <Typewriter
                       options={{
-                          strings:['Odysseas','Kolas'],
+                          strings:['Sandra','Sanders'],
                           autoStart:true,
                           loop:true
                       }}
@@ -143,19 +143,19 @@ const Header = () => {
                       {/* single info */}
                     <div className="info">
                         <label htmlFor="name">Fullname:</label>
-                        <h4>Odysseas Kolas</h4>
+                        <h4>Sandra Sanders</h4>
                     </div>
 
                     {/* single info */}
                      <div className="info">
                         <label htmlFor="occupation">occupation:</label>
-                        <h4>Electrician-engineer, seb developer</h4>
+                        <h4>Dev Ops, Mechanical Engineer</h4>
                     </div>
 
                      {/* single info */}
                     <div className="info">
                         <label htmlFor="email">email:</label>
-                        <h4>odkolas@gmail.com</h4>
+                        <h4>sandy-sanders@msn.com</h4>
                     </div>
 
                   </div>

@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react'
 import './Navbar.css';
 import {Link} from 'react-router-dom';
-import Logo from '../../images/logo.jpg';
+import Logo from '../../images/sandralogo.jpg';
 import {DataContext} from '../context/GlobalContext';
 
 import {scroller} from 'react-scroll';
@@ -17,7 +17,7 @@ const [toggle, setToggle] = useState(false);
 
 
 
-// for scralli navbar elements
+// for scroller navbar elements
 const scrollToElement = (element)=>{
   scroller.scrollTo(element,{
       duration:800,

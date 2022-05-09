@@ -158,7 +158,7 @@ axios.delete(`/project/${id}`)
 })
 
 
-    // delete from clietn ui
+    // delete from client ui
     const filteredProject = projectData.filter(item=>item._id !==id);
     setProjectData(filteredProject);
 

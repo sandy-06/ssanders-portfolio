@@ -77,16 +77,16 @@ try {
 // }
 
 
-// for fetcing data
+// for fetching data
 
 const fetchData= async ()=>{
 
-     // ...for fetchning about...
+     // ...for fetching about...
     const res1 = await axios.get(`/about`);
     // console.log(res1.data);
     setAbout(res1.data);
 
-// ...for fetchning education...
+// ...for fetching education...
     const res2 = await axios.get(`/education`);
     // console.log(res2.data);
     setEducation(res2.data); 

@@ -63,16 +63,15 @@ const logOutSubmit = ()=>{
      <div className="contact-center-media">
          <h3>Media</h3>
          <div className="contact-media">
-         <li><a href="https://www.youtube.com/channel/UCarYD6WjjdXRqBZhPF9ppHQ/videos?view_as=subscriber" target="_blank" rel="noreferrer"><i className="fab fa-youtube-square"></i>Youtube</a></li>
-         <li><a href="/#" target="_blank" rel="noreferrer"><i className="fab fa-facebook-square"></i>Facebook</a></li>
-         <li><a href="/#" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i>Linkdedin</a></li>
+    
+         <li><a href="https://www.linkedin.com/in/sandy-sanders-22190210/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i>Linkdedin</a></li>
          </div>
      </div>
 
    </div>
  </div>
 <div className="footer">
-    <p>Designed and created by codito 2020</p>
+    <p>Designed and created by S.Sanders 2022</p>
 </div>
 
   </div>

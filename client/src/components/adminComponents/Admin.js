@@ -72,7 +72,7 @@ const [isLogin] = state.isLogin;
           
           <div className="back_to_home">
              <div className="back_box">
-               <h2>Only admin can have accesss here</h2>
+               <h2>Only admin can have access here</h2>
                <Link to="/">Back to home</Link>
              </div>
             
