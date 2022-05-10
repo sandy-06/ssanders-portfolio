@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Resume from '../../images/approvedresume.docx';
 import profile from '../../images/sandra.jpg';
 // import Particle from 'react-particles-js';
 import Typewriter from 'typewriter-effect';
@@ -129,7 +129,7 @@ const Header = () => {
              </div>
 
              <div className="cv">
-                 <span><b>Cv:</b> <a href="/#" target="_blank" rel="noreferrer"><i className="fas fa-file-pdf"></i></a></span>
+                 <span><b>Resume:</b> <a href={Resume} target="_blank" rel="noreferrer"><i className="fas fa-file-pdf"></i></a></span>
              </div>
 
               </div>
