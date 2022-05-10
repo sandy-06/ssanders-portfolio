@@ -20,7 +20,7 @@ const About = () => {
         <div className="skills">
           <h3>Summary</h3>
           <p>Full Stack Web Developer with a Mechanical Engineering Degree and background in design of Automated Machinery and Military projects. Love of creating better ways to get things accomplished.
-            Known by my coworkers and staff to have a strong desire and drive to succeed on whatever venture taken on.</p>
+            Constantly studying and learning new things with a passion for learning. Known by my coworkers and staff to have a strong desire and drive to succeed in whatever venture taken on.</p>
         </div>
         <div className="skills">
           <h4>Skills(Tech)</h4>
@@ -30,7 +30,7 @@ const About = () => {
         </div>
         <div className="skills">
           <h4>Soft Skills</h4>
-          <p>Sales, Public Speaking, Team leadership, Virtual Training, Time Management, Customer Service, Recruiting, Motivation</p>
+          <p>Sales, Public Speaking, Team leadership, Virtual Training, Time Management, Customer Service, Recruiting, Motivation, Zoom and logmein</p>
         </div>
 
 
