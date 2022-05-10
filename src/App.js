@@ -20,12 +20,7 @@ import EditExperience from './components/editComponents/EditExperience';
 import {Route} from 'react-router-dom';
 import {Element} from 'react-scroll';
 
-app.use(express.static(path.join(__dirname, 'build')));
 
--app.get('/', function (req, res) {
-+app.get('/*', function (req, res) {
-   res.sendFile(path.join(__dirname, 'build', 'index.html'));
- });
 
 
 function App() {
@@ -96,5 +91,3 @@ export default App;
 
 
 
-// https://www.udemy.com/course/mern-stack-portfolio/?couponCode=0757DFF2E776B6082081
-// https://www.udemy.com/course/mern-stack-portfolio/?couponCode=276CC7AAC2CBC62452A9
