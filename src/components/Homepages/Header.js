@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from '../../images/approvedresume.docx';
+import Resume from '../../images/1currentresume2.docx';
 import profile from '../../images/sandra.jpg';
 // import Particle from 'react-particles-js';
 import Typewriter from 'typewriter-effect';
